@@ -1,0 +1,25 @@
+server:
+  port: XXXX
+management:
+  port: XXXX
+  address: 127.0.0.1
+abc:
+  url: http://abc.com
+
+
+---
+#DEV Should use the defaults 
+spring:
+  profiles: DEV
+abc:
+    user_search_pattern: "XXXXXXXXXXXXXXXXXX"
+testProp:
+
+  projectObjectId: abc
+
+  dbRoleObjectId: abc
+
+  dbConnectionObjectId: abc
+
+
+
